@@ -1285,6 +1285,8 @@ PlayableDirector:
     value: {fileID: 1360830010}
   - key: {fileID: 6509329211059139383, guid: 6637b8e32d9c98349980528cc477c69e, type: 2}
     value: {fileID: 1545218955}
+  - key: {fileID: 8073894554064035318, guid: 6637b8e32d9c98349980528cc477c69e, type: 2}
+    value: {fileID: 330585550}
   m_ExposedReferences:
     m_References: []
 --- !u!1001 &287844729
@@ -1390,6 +1392,8 @@ GameObject:
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
   - component: {fileID: 330585548}
+  - component: {fileID: 330585549}
+  - component: {fileID: 330585550}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1464,8 +1468,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0011390571, y: -0.9914071, z: -0.13052127, w: 0.008651994}
-  m_LocalPosition: {x: 5, y: 41, z: 17}
+  m_LocalRotation: {x: 0.16405568, y: 0.0767494, z: -0.012804009, w: 0.9833775}
+  m_LocalPosition: {x: 4, y: 40, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1547,6 +1551,60 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   CustomBlends: {fileID: 0}
+--- !u!45 &330585549
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: 9473f4a0da8f4854aab7e662c1b78ce5, type: 2}
+--- !u!114 &330585550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: fcbfa89f5adb2584295d6ca2a790014a, type: 2}
+    - {fileID: 11400000, guid: afdf86588f4ae6d4b8e51952cbdd39b0, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 330585549}
+          m_TargetAssemblyTypeName: UnityEngine.Skybox, UnityEngine
+          m_MethodName: set_material
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 2100000, guid: 9473f4a0da8f4854aab7e662c1b78ce5, type: 2}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 1
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 330585549}
+          m_TargetAssemblyTypeName: UnityEngine.Skybox, UnityEngine
+          m_MethodName: set_material
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 2100000, guid: 3c3a2d5374e5bb743a5c39aeb90b575b, type: 2}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 1
 --- !u!1001 &346709450
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13040,8 +13098,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1331576023}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.24731608, y: 0.08958045, z: -0.022969844, w: 0.9645116}
-  m_LocalPosition: {x: 7, y: 40, z: 19}
+  m_LocalRotation: {x: 0.16405568, y: 0.0767494, z: -0.012804009, w: 0.9833775}
+  m_LocalPosition: {x: 4, y: 40, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
