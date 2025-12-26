@@ -24,6 +24,7 @@ Merry Christmas 2025!
 
 - [Lowpoly Environment Extreme Pack](https://assetstore.unity.com/packages/3d/environments/lowpoly-environment-extreme-pack-238098)
 - [Koryoin Deportation Train](https://assetstore.unity.com/packages/3d/environments/koryoin-deportation-train-282548)
+- [Skybox Series Free](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633)
 
 ## Information
 
