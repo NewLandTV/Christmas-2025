@@ -30,4 +30,4 @@ Merry Christmas 2025!
 
 | Project Version | BGM | Map Design | Video |
 | :-: | :-: | :-: | :-: | 
-| [Unity 6000.0.58f2](https://unity.com/kr/releases/editor/whats-new/6000.0.58f2) | 🎵 [MyuPie - 눈꽃마을(Snowflake Town)](https://www.youtube.com/watch?v=JK2xatFv8sk) | Sanctus Nicolaus by ByaByu | JkhTV |
+| [Unity 6000.0.58f2](https://unity.com/kr/releases/editor/whats-new/6000.0.58f2) | 🎵 [MyuPie - 눈꽃마을(Snowflake Town)](https://www.youtube.com/watch?v=JK2xatFv8sk) | Sanctus Nicolaus by [ByaByu](https://www.youtube.com/@nbyabyu) | JkhTV |
